@@ -1,0 +1,18 @@
+# PyInstaller artifacts
+/build/
+/dist/*
+!dist/roblox_asset_downloader.exe  # Keep only the final .exe
+
+# Python
+__pycache__/
+*.pyc
+*.spec
+*.log
+
+# Environments
+venv/
+.env/
+
+# OS junk
+.DS_Store
+Thumbs.db
